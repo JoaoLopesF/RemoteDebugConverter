@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project SerialDebugConverter with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR file Export Wizard-->
+    <!--ANT 1.7 is required-->
+    <!--define folder properties-->
+    <property name="dir.buildfile" value="/Users/Ararekan/Utilitários/SerialDebugConverter"/>
+    <property name="dir.workspace" value="/Improvelife/Desenv/Projetos/Java/Workspace-JoaoLopesF"/>
+    <property name="dir.jarfile" value="${dir.buildfile}"/>
+    <target name="create_run_jar">
+        <jar destfile="${dir.jarfile}/SerialDebugConverter.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="net.joaolopesf.serialdebugconverter.SerialDebugConverter"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ miglayout15-swing.jar"/>
+            </manifest>
+            <zipfileset src="/Users/Ararekan/Utilitários/SerialDebugCOnverter/jar-in-jar-loader.zip"/>
+            <fileset dir="${dir.workspace}/SerialDebugConverter/bin"/>
+            <zipfileset dir="${dir.workspace}/SerialDebugConverter" includes="miglayout15-swing.jar"/>
+        </jar>
+    </target>
+</project>

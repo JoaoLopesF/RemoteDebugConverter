@@ -58,12 +58,12 @@ it help to keep updated.
 
 ## How it looks
 
-![Screenshot 1](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/Screenshots/screenshot1.png)
-![Screenshot 2](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/Screenshots/screenshot2.png)
-![Screenshot 3](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/Screenshots/screenshot3.png)
-![Screenshot 4](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/Screenshots/screenshot4.png)
-![Screenshot 5](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/Screenshots/screenshot5.png)
-![Screenshot 6](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/Screenshots/screenshot6.png)
+![Screenshot 1](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/screenshots/screenshot1.png)
+![Screenshot 2](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/screenshots/screenshot2.png)
+![Screenshot 3](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/screenshots/screenshot3.png)
+![Screenshot 4](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/screenshots/screenshot4.png)
+![Screenshot 5](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/screenshots/screenshot5.png)
+![Screenshot 6](https://github.com/JoaoLopesF/RemoteDebugConverter/blob/master/screenshots/screenshot6.png)
 
 ## Usage
 

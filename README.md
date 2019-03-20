@@ -43,6 +43,12 @@ This program do:
 This is a beta version. 
 Not yet fully tested, optimized, and documented.
 
+Note:  
+
+- It not yet converting to use [RemoteDebugger library](https://github.com/JoaoLopesF/RemoteDebugger).
+- If you want add debugger in your codes to be used after this first conversion,
+  please access: [RemoteDebuggerConverter](https://github.com/JoaoLopesF/RemoteDebuggerConverter)
+  
 ## Github
 
 Contribute to this libray development by creating an account on GitHub.

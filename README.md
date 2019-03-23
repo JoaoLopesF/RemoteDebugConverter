@@ -213,6 +213,9 @@ rprintD("occurs a error on processing");
 
 rprintD("some details ....................................");
 
+rprintD("* Time: ");
+rprintD(mRunSeconds);
+rprintDln(" seconds");
 ````
 
 Change to:
@@ -224,6 +227,10 @@ rprintE("occurs a error on processing");
 ///...
 
 rprintV("some details ....................................");
+
+rprintV("* Time: ");
+rprintV(mRunSeconds);
+rprintVln(" seconds");
 
 ````
 

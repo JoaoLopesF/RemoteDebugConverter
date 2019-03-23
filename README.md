@@ -1,4 +1,5 @@
 # RemoteDebug Library for Arduino - source converter
+
 Converter for RemoteDebug. Convert standard Serial.prints to RemoteDebug library
 
 
@@ -170,6 +171,61 @@ rdebugD("* Time: %u seconds\n", mRunSeconds);
 debugD("* Time: %u seconds", mRunSeconds);
 
 ```
+
+### TO-DO after conversion
+
+One of most important features of RemoteDebug,
+is the debug levels, as have in modern platforms,
+as Android, iOS, javascript, and ESP-IDF.
+
+Debug levels in order of importance (high -> less debug output):
+
+   __Error__:    Critical errors
+   __Always__:   Important messages
+   __Warning__:  Error conditions but not critical
+   __Info__:     Information messages
+   __Debug__:    Extra information
+   __Verbose__:  More information than the usual  
+
+The converter will convert all debug to same level,
+as debug. Your work (suggested) is redefine the debug levels,
+according of the list above.
+
+The capitalize character on suffix of debug macros,
+is the level of this.
+
+- Error (debugR, rprint*E, ..)
+- Always (debugA, rprint*A, ..)
+- Warning (debugW, rprint*W, ..)
+- debug (debugD, rprint*D, ..)
+- Verbose (debugV, rprint*V, ..)
+
+So, suggest you open the code converted,
+and change the suffix of these debug macros.
+
+For example:
+
+```cpp
+
+rprintD("occurs a error on processing");
+
+///...
+
+rprintD("some details ....................................");
+
+````
+
+Change to:
+
+```cpp
+
+rprintE("occurs a error on processing");
+
+///...
+
+rprintV("some details ....................................");
+
+````
 
 ## Releases
 

@@ -194,7 +194,7 @@ according of the list above.
 The capitalize character on suffix of debug macros,
 is the level of this.
 
-- Error (debugR, rprint*E, ..)
+- Error (debugE, rprint*E, ..)
 - Always (debugA, rprint*A, ..)
 - Warning (debugW, rprint*W, ..)
 - debug (debugD, rprint*D, ..)

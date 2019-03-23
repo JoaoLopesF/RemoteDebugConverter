@@ -207,7 +207,7 @@ For example:
 
 ```cpp
 
-rprintD("occurs a error on processing");
+rprintD("occurs an error on processing");
 
 ///...
 
@@ -222,7 +222,7 @@ Change to:
 
 ```cpp
 
-rprintE("occurs a error on processing");
+rprintE("occurs an error on processing");
 
 ///...
 

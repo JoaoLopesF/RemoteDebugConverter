@@ -180,12 +180,12 @@ as Android, iOS, javascript, and ESP-IDF.
 
 Debug levels in order of importance (high -> less debug output):
 
-   __Error__:    Critical errors
-   __Always__:   Important messages
-   __Warning__:  Error conditions but not critical
-   __Info__:     Information messages
-   __Debug__:    Extra information
-   __Verbose__:  More information than the usual  
+- __Error__:    Critical errors
+- __Always__:   Important messages
+- __Warning__:  Error conditions but not critical
+- __Info__:     Information messages
+- __Debug__:    Extra information
+- __Verbose__:  More information than the usual  
 
 The converter will convert all debug to same level,
 as debug. Your work (suggested) is redefine the debug levels,
